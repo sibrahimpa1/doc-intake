@@ -1,0 +1,87 @@
+{
+ "id": "D-1011",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Ostrava Roastery Equipment s.r.o.",
+   "evidence": "Ostrava Roastery Equipment s.r.o.",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "CZ27718341",
+   "evidence": "CZ27718341",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "2026/0417",
+   "evidence": "2026/0417",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-10",
+   "evidence": "10.11.2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-10",
+   "evidence": "10.12.2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": "PO-5105",
+   "evidence": "PO-5105",
+   "confidence": 0.98
+  },
+  "currency": {
+   "value": "EUR",
+   "evidence": "EUR",
+   "confidence": 0.98
+  },
+  "subtotal": {
+   "value": 776000,
+   "evidence": "7.760,00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": "0,00",
+   "confidence": 0.98
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 776000,
+   "evidence": "7.760,00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "CZ6508000000192000145399",
+   "evidence": "CZ6508000000192000145399",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "RST-AFT",
+   "description": "Afterburner unit, 15 kg roaster",
+   "qty": 1,
+   "unit_price": 684000,
+   "amount": 684000,
+   "evidence": "6.840,00",
+   "confidence": 0.97
+  },
+  {
+   "sku": "RST-SVC",
+   "description": "Commissioning and calibration",
+   "qty": 1,
+   "unit_price": 92000,
+   "amount": 92000,
+   "evidence": "920,00",
+   "confidence": 0.97
+  }
+ ]
+}

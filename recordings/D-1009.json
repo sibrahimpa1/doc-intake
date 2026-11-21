@@ -1,0 +1,88 @@
+{
+ "id": "D-1009",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Meridian IT Services",
+   "evidence": "Meridian IT Services",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "82-7719043",
+   "evidence": "82-7719043",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "MIT-4410",
+   "evidence": "MIT-4410",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-09",
+   "evidence": "Nov 9, 2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-09",
+   "evidence": "Dec 9, 2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 780000,
+   "evidence": "7,800.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 780000,
+   "evidence": "7,800.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "125200057-3360241",
+   "evidence": "125200057-3360241",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Managed IT, November",
+   "qty": 1,
+   "unit_price": 420000,
+   "amount": 420000,
+   "evidence": "4,200.00",
+   "confidence": 0.97
+  },
+  {
+   "sku": "S2",
+   "description": "POS network replacement, labor",
+   "qty": 1,
+   "unit_price": 360000,
+   "amount": 360000,
+   "evidence": "3,600.00",
+   "confidence": 0.97
+  }
+ ]
+}

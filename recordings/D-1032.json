@@ -1,0 +1,79 @@
+{
+ "id": "D-1032",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Clearview Janitorial",
+   "evidence": "Clearview Janitorial",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "93-4471120",
+   "evidence": "93-4471120",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "CJ-3440",
+   "evidence": "CJ-3440",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-12-01",
+   "evidence": "12/01/2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-16",
+   "evidence": "12/16/2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 98000,
+   "evidence": "$980.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 98000,
+   "evidence": "$980.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "123006800-6612087",
+   "evidence": "123006800-6612087",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Cafe and roastery cleaning, December",
+   "qty": 1,
+   "unit_price": 98000,
+   "amount": 98000,
+   "evidence": "980.00",
+   "confidence": 0.97
+  }
+ ]
+}

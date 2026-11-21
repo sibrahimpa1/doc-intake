@@ -1,0 +1,79 @@
+{
+ "id": "D-1024",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Willamette Kitchen Repair",
+   "evidence": "Willamette Kitchen Repair",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "93-5581204",
+   "evidence": "93-5581204",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "WK-1203",
+   "evidence": "WK-1203",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-14",
+   "evidence": "11/14/2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-11-29",
+   "evidence": "11/29/2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 118000,
+   "evidence": "$1,180.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 10030,
+   "evidence": "$100.30",
+   "confidence": 0.98
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 138030,
+   "evidence": "$1,380.30",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "123000220-3318760",
+   "evidence": "123000220-3318760",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Walk-in cooler compressor",
+   "qty": 1,
+   "unit_price": 118000,
+   "amount": 118000,
+   "evidence": "1,180.00",
+   "confidence": 0.97
+  }
+ ]
+}

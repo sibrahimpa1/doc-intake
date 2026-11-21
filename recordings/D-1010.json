@@ -1,0 +1,88 @@
+{
+ "id": "D-1010",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Lakeside Property Management",
+   "evidence": "Lakeside Property Management",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "93-6640182",
+   "evidence": "93-6640182",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "LPM-2026-12",
+   "evidence": "LPM-2026-12",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-10",
+   "evidence": "Nov 10, 2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-11-15",
+   "evidence": "Nov 15, 2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 1850000,
+   "evidence": "18,500.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 1850000,
+   "evidence": "18,500.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "123000220-9001346",
+   "evidence": "123000220-9001346",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Rent, 410 Foundry Row, December",
+   "qty": 1,
+   "unit_price": 1650000,
+   "amount": 1650000,
+   "evidence": "16,500.00",
+   "confidence": 0.97
+  },
+  {
+   "sku": "S2",
+   "description": "Common area maintenance",
+   "qty": 1,
+   "unit_price": 200000,
+   "amount": 200000,
+   "evidence": "2,000.00",
+   "confidence": 0.97
+  }
+ ]
+}

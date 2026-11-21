@@ -1,0 +1,196 @@
+{
+ "id": "D-1008",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Redwood Dairy Cooperative",
+   "evidence": "Redwood Dairy Cooperative",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "94-1188260",
+   "evidence": "94-1188260",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "RD-6688",
+   "evidence": "RD-6688",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-09",
+   "evidence": "11/09/2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-11-24",
+   "evidence": "11/24/2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": "PO-5104",
+   "evidence": "PO-5104",
+   "confidence": 0.98
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 377330,
+   "evidence": "$3,773.30",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 377330,
+   "evidence": "$3,773.30",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "121000248-2209174",
+   "evidence": "121000248-2209174",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "MLK-WH",
+   "description": "Whole milk, 5 gal",
+   "qty": 24,
+   "unit_price": 2195,
+   "amount": 52680,
+   "evidence": "526.80",
+   "confidence": 0.97
+  },
+  {
+   "sku": "CRM-HV",
+   "description": "Heavy cream, 2.5 gal",
+   "qty": 10,
+   "unit_price": 3460,
+   "amount": 34600,
+   "evidence": "346.00",
+   "confidence": 0.97
+  },
+  {
+   "sku": "BTR-UN",
+   "description": "Unsalted butter, 36 lb",
+   "qty": 4,
+   "unit_price": 12480,
+   "amount": 49920,
+   "evidence": "499.20",
+   "confidence": 0.97
+  },
+  {
+   "sku": "MLK-OT",
+   "description": "Oat base, 5 gal",
+   "qty": 12,
+   "unit_price": 3120,
+   "amount": 37440,
+   "evidence": "374.40",
+   "confidence": 0.97
+  },
+  {
+   "sku": "MLK-AL",
+   "description": "Almond base, 5 gal",
+   "qty": 6,
+   "unit_price": 3390,
+   "amount": 20340,
+   "evidence": "203.40",
+   "confidence": 0.97
+  },
+  {
+   "sku": "YGT-PL",
+   "description": "Plain yogurt, 2 gal",
+   "qty": 8,
+   "unit_price": 2240,
+   "amount": 17920,
+   "evidence": "179.20",
+   "confidence": 0.97
+  },
+  {
+   "sku": "CHS-CH",
+   "description": "Sharp cheddar, 10 lb",
+   "qty": 5,
+   "unit_price": 5150,
+   "amount": 25750,
+   "evidence": "257.50",
+   "confidence": 0.97
+  },
+  {
+   "sku": "CHS-MZ",
+   "description": "Mozzarella, 10 lb",
+   "qty": 5,
+   "unit_price": 4720,
+   "amount": 23600,
+   "evidence": "236.00",
+   "confidence": 0.97
+  },
+  {
+   "sku": "EGG-LQ",
+   "description": "Liquid egg, 2 lb (case)",
+   "qty": 6,
+   "unit_price": 3875,
+   "amount": 23250,
+   "evidence": "232.50",
+   "confidence": 0.97
+  },
+  {
+   "sku": "CRM-SR",
+   "description": "Sour cream, 5 lb",
+   "qty": 6,
+   "unit_price": 1640,
+   "amount": 9840,
+   "evidence": "98.40",
+   "confidence": 0.97
+  },
+  {
+   "sku": "MLK-2P",
+   "description": "2% milk, 5 gal",
+   "qty": 10,
+   "unit_price": 2085,
+   "amount": 20850,
+   "evidence": "208.50",
+   "confidence": 0.97
+  },
+  {
+   "sku": "CRM-HH",
+   "description": "Half and half, 2.5 gal",
+   "qty": 8,
+   "unit_price": 2460,
+   "amount": 19680,
+   "evidence": "196.80",
+   "confidence": 0.97
+  },
+  {
+   "sku": "BTR-SL",
+   "description": "Salted butter, 36 lb",
+   "qty": 2,
+   "unit_price": 12150,
+   "amount": 24300,
+   "evidence": "243.00",
+   "confidence": 0.97
+  },
+  {
+   "sku": "CHS-PR",
+   "description": "Parmesan, 5 lb",
+   "qty": 4,
+   "unit_price": 4290,
+   "amount": 17160,
+   "evidence": "171.60",
+   "confidence": 0.97
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "D-1019",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Meridlan IT Services",
+   "evidence": "Meridlan IT Services",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "88-1045523",
+   "evidence": "88-1045523",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "MIT-4455",
+   "evidence": "MIT-4455",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-12",
+   "evidence": "Nov 12, 2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-12",
+   "evidence": "Dec 12, 2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 485000,
+   "evidence": "4,850.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 485000,
+   "evidence": "4,850.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "031101279-5540091",
+   "evidence": "031101279-5540091",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Emergency server support",
+   "qty": 1,
+   "unit_price": 485000,
+   "amount": 485000,
+   "evidence": "4,850.00",
+   "confidence": 0.97
+  }
+ ]
+}

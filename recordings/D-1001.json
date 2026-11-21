@@ -1,0 +1,79 @@
+{
+ "id": "D-1001",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Blue Harbor Coffee Importers",
+   "evidence": "Blue Harbor Coffee Importers",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "84-2201934",
+   "evidence": "84-2201934",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "BH-20418",
+   "evidence": "BH-20418",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-02",
+   "evidence": "11/02/2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-02",
+   "evidence": "12/02/2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": "PO-5110",
+   "evidence": "PO-5110",
+   "confidence": 0.98
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 99450,
+   "evidence": "$994.50",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 4200,
+   "evidence": "$42.00",
+   "confidence": 0.98
+  },
+  "total": {
+   "value": 103650,
+   "evidence": "$1,036.50",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "021000021-4471902",
+   "evidence": "021000021-4471902",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "GRN-BRZ",
+   "description": "Green coffee, Brazil Cerrado 60kg",
+   "qty": 3,
+   "unit_price": 33150,
+   "amount": 99450,
+   "evidence": "994.50",
+   "confidence": 0.97
+  }
+ ]
+}

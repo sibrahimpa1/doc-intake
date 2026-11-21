@@ -1,0 +1,79 @@
+{
+ "id": "D-1013",
+ "model": "replay: recorded extraction",
+ "doc_type": "statement",
+ "fields": {
+  "vendor_name": {
+   "value": "Summit Freight Logistics",
+   "evidence": "Summit Freight Logistics",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "47-5512096",
+   "evidence": "47-5512096",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "ST-2026-10",
+   "evidence": "ST-2026-10",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-01",
+   "evidence": "2026-11-01",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-01",
+   "evidence": "2026-12-01",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 157999,
+   "evidence": "1,579.99",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 157999,
+   "evidence": "1,579.99",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "102000076-5518823",
+   "evidence": "102000076-5518823",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Open balance as of Oct 31",
+   "qty": 1,
+   "unit_price": 157999,
+   "amount": 157999,
+   "evidence": "1,579.99",
+   "confidence": 0.97
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "D-1031",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Summit Freight Logistics",
+   "evidence": "Summit Freight Logistics",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "47-5512096",
+   "evidence": "47-5512096",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "SF-117990",
+   "evidence": "SF-117990",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-10-22",
+   "evidence": "2026-10-22",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-11-21",
+   "evidence": "2026-11-21",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 62500,
+   "evidence": "625.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 62500,
+   "evidence": "625.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "102000076-5518823",
+   "evidence": "102000076-5518823",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "LTL freight Seattle to Portland",
+   "qty": 1,
+   "unit_price": 62500,
+   "amount": 62500,
+   "evidence": "625.00",
+   "confidence": 0.97
+  }
+ ]
+}

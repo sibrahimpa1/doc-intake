@@ -1,0 +1,79 @@
+{
+ "id": "D-1012",
+ "model": "replay: recorded extraction",
+ "doc_type": "credit_note",
+ "fields": {
+  "vendor_name": {
+   "value": "Cascade Packaging Supply",
+   "evidence": "Cascade Packaging Supply",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "91-3307715",
+   "evidence": "91-3307715",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "CN-7719",
+   "evidence": "CN-7719",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-11",
+   "evidence": "Nov 11, 2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-11",
+   "evidence": "Dec 11, 2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": -9240,
+   "evidence": "-92.40",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": -9240,
+   "evidence": "-92.40",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "125000024-7730118",
+   "evidence": "125000024-7730118",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "BAG-12",
+   "description": "Return: kraft bags, crushed in transit",
+   "qty": 2,
+   "unit_price": -4620,
+   "amount": -9240,
+   "evidence": "-92.40",
+   "confidence": 0.97
+  }
+ ]
+}

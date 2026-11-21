@@ -1,0 +1,79 @@
+{
+ "id": "D-1021",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Old Mill Flour",
+   "evidence": "Old Mill Flour",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "93-1120988",
+   "evidence": "93-1120988",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "OM-2291",
+   "evidence": "OM-2291",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-13",
+   "evidence": "2026-11-13",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-13",
+   "evidence": "2026-12-13",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 54800,
+   "evidence": "548.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 54800,
+   "evidence": "548.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "123000220-7004412",
+   "evidence": "123000220-7004412",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Bread flour, 50 lb",
+   "qty": 20,
+   "unit_price": 2740,
+   "amount": 54800,
+   "evidence": "548.00",
+   "confidence": 0.97
+  }
+ ]
+}

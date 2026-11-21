@@ -1,0 +1,79 @@
+{
+ "id": "D-1026",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Blue Harbor Coffee Importers",
+   "evidence": "Blue Harbor Coffee Importers",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "84-2201934",
+   "evidence": "84-2201934",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "BH-20471",
+   "evidence": "BH-20471",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-14",
+   "evidence": "11/14/2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-14",
+   "evidence": "12/14/2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": "PO-5106",
+   "evidence": "PO-5106",
+   "confidence": 0.98
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 210500,
+   "evidence": "$2,105.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 210500,
+   "evidence": "$2,105.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "021000021-4471902",
+   "evidence": "021000021-4471902",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "GRN-GUA",
+   "description": "Green coffee, Guatemala Huehue 60kg",
+   "qty": 5,
+   "unit_price": 42100,
+   "amount": 210500,
+   "evidence": "2,105.00",
+   "confidence": 0.97
+  }
+ ]
+}

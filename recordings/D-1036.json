@@ -1,0 +1,79 @@
+{
+ "id": "D-1036",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Meridian IT Services",
+   "evidence": "Meridian IT Services",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "82-7719043",
+   "evidence": "82-7719043",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "MIT-4471",
+   "evidence": "MIT-4471",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-18",
+   "evidence": "Nov 18, 2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-18",
+   "evidence": "Dec 18, 2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": "PO-5111",
+   "evidence": "PO-5111",
+   "confidence": 0.93
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 55500,
+   "evidence": "555.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 55500,
+   "evidence": "555.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "125200057-3360241",
+   "evidence": "125200057-3360241",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Laptop setup, 3 units",
+   "qty": 3,
+   "unit_price": 18500,
+   "amount": 55500,
+   "evidence": "555.00",
+   "confidence": 0.97
+  }
+ ]
+}

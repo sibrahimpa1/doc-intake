@@ -1,0 +1,79 @@
+{
+ "id": "D-1014",
+ "model": "replay: recorded extraction",
+ "doc_type": "order_confirmation",
+ "fields": {
+  "vendor_name": {
+   "value": "Cascade Packaging Supply",
+   "evidence": "Cascade Packaging Supply",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "91-3307715",
+   "evidence": "91-3307715",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "OC-55120",
+   "evidence": "OC-55120",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-11",
+   "evidence": "Nov 11, 2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-11",
+   "evidence": "Dec 11, 2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": "PO-5107",
+   "evidence": "PO-5107",
+   "confidence": 0.98
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 144800,
+   "evidence": "1,448.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 144800,
+   "evidence": "1,448.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "125000024-7730118",
+   "evidence": "125000024-7730118",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "CUP-16",
+   "description": "Compostable cups, 16 oz (case)",
+   "qty": 20,
+   "unit_price": 7240,
+   "amount": 144800,
+   "evidence": "1,448.00",
+   "confidence": 0.97
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "D-1035",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Summit Freight Logistics",
+   "evidence": "Summit Freight Logistics",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "47-5512096",
+   "evidence": "47-5512096",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "SF-118377",
+   "evidence": "SF-118377",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-18",
+   "evidence": "2026-11-18",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-18",
+   "evidence": "2026-12-18",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 118300,
+   "evidence": "1,183.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 118800,
+   "evidence": "1,188.00",
+   "confidence": 0.93
+  },
+  "bank_account": {
+   "value": "102000076-5518823",
+   "evidence": "102000076-5518823",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "LTL freight Newark to Portland, 4 pallets",
+   "qty": 1,
+   "unit_price": 118300,
+   "amount": 118300,
+   "evidence": "1,183.00",
+   "confidence": 0.97
+  }
+ ]
+}

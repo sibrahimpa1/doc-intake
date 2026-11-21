@@ -1,0 +1,626 @@
+{
+ "company": "Alder & Finch Foods (synthetic)",
+ "vendors": {
+  "V-01": {
+   "name": "Blue Harbor Coffee Importers",
+   "aliases": [
+    "Blue Harbor Coffee"
+   ],
+   "tax_id": "84-2201934",
+   "bank": "021000021-4471902",
+   "terms": 30,
+   "currency": "USD",
+   "gl": "5000",
+   "requires_po": true,
+   "tax_bps": 0,
+   "addr": [
+    "88 Pier Road",
+    "Newark, NJ 07114"
+   ],
+   "status": "active"
+  },
+  "V-02": {
+   "name": "Cascade Packaging Supply",
+   "aliases": [
+    "Cascade Packaging"
+   ],
+   "tax_id": "91-3307715",
+   "bank": "125000024-7730118",
+   "terms": 30,
+   "currency": "USD",
+   "gl": "5100",
+   "requires_po": true,
+   "tax_bps": 0,
+   "addr": [
+    "1200 Mill Plain Blvd",
+    "Vancouver, WA 98660"
+   ],
+   "status": "active"
+  },
+  "V-03": {
+   "name": "Redwood Dairy Cooperative",
+   "aliases": [
+    "Redwood Dairy"
+   ],
+   "tax_id": "94-1188260",
+   "bank": "121000248-2209174",
+   "terms": 15,
+   "currency": "USD",
+   "gl": "5000",
+   "requires_po": true,
+   "tax_bps": 0,
+   "addr": [
+    "45 Creamery Lane",
+    "Petaluma, CA 94952"
+   ],
+   "status": "active"
+  },
+  "V-04": {
+   "name": "Summit Freight Logistics",
+   "aliases": [
+    "Summit Freight"
+   ],
+   "tax_id": "47-5512096",
+   "bank": "102000076-5518823",
+   "terms": 30,
+   "currency": "USD",
+   "gl": "6100",
+   "requires_po": false,
+   "tax_bps": 0,
+   "addr": [
+    "7 Terminal Way",
+    "Denver, CO 80216"
+   ],
+   "status": "active"
+  },
+  "V-05": {
+   "name": "Lakeside Property Management",
+   "aliases": [
+    "Lakeside Property"
+   ],
+   "tax_id": "93-6640182",
+   "bank": "123000220-9001346",
+   "terms": 5,
+   "currency": "USD",
+   "gl": "6200",
+   "requires_po": false,
+   "tax_bps": 0,
+   "addr": [
+    "300 Lakeshore Ave",
+    "Portland, OR 97201"
+   ],
+   "status": "active"
+  },
+  "V-06": {
+   "name": "BrightLine Electric",
+   "aliases": [
+    "BrightLine Electric Utility"
+   ],
+   "tax_id": "93-0204417",
+   "bank": "123000220-1140098",
+   "terms": 20,
+   "currency": "USD",
+   "gl": "6300",
+   "requires_po": false,
+   "tax_bps": 0,
+   "addr": [
+    "PO Box 5500",
+    "Portland, OR 97228"
+   ],
+   "status": "active"
+  },
+  "V-07": {
+   "name": "Meridian IT Services",
+   "aliases": [
+    "Meridian IT"
+   ],
+   "tax_id": "82-7719043",
+   "bank": "125200057-3360241",
+   "terms": 30,
+   "currency": "USD",
+   "gl": "6400",
+   "requires_po": false,
+   "tax_bps": 0,
+   "addr": [
+    "19 Pearl Street, Suite 400",
+    "Portland, OR 97204"
+   ],
+   "status": "active"
+  },
+  "V-08": {
+   "name": "Ostrava Roastery Equipment s.r.o.",
+   "aliases": [
+    "Ostrava Roastery Equipment"
+   ],
+   "tax_id": "CZ27718341",
+   "bank": "CZ6508000000192000145399",
+   "terms": 30,
+   "currency": "EUR",
+   "gl": "1500",
+   "requires_po": true,
+   "tax_bps": 0,
+   "addr": [
+    "Hornopolni 12",
+    "702 00 Ostrava, Czechia"
+   ],
+   "status": "active"
+  },
+  "V-09": {
+   "name": "Clearview Janitorial",
+   "aliases": [
+    "Clearview Cleaning"
+   ],
+   "tax_id": "93-4471120",
+   "bank": "123006800-6612087",
+   "terms": 15,
+   "currency": "USD",
+   "gl": "6500",
+   "requires_po": false,
+   "tax_bps": 0,
+   "addr": [
+    "2210 SE Division St",
+    "Portland, OR 97202"
+   ],
+   "status": "active"
+  },
+  "V-10": {
+   "name": "Fennel & Sage Marketing",
+   "aliases": [
+    "Fennel and Sage"
+   ],
+   "tax_id": "81-2093355",
+   "bank": "325182797-4410762",
+   "terms": 30,
+   "currency": "USD",
+   "gl": "6600",
+   "requires_po": false,
+   "tax_bps": 0,
+   "addr": [
+    "501 Alder St",
+    "Seattle, WA 98104"
+   ],
+   "status": "active"
+  },
+  "V-11": {
+   "name": "Ironclad Insurance Brokers",
+   "aliases": [
+    "Ironclad Insurance"
+   ],
+   "tax_id": "36-9920417",
+   "bank": "071000013-8820154",
+   "terms": 30,
+   "currency": "USD",
+   "gl": "6700",
+   "requires_po": false,
+   "tax_bps": 0,
+   "addr": [
+    "141 W Jackson Blvd",
+    "Chicago, IL 60604"
+   ],
+   "status": "active"
+  },
+  "V-12": {
+   "name": "Old Mill Flour",
+   "aliases": [],
+   "tax_id": "93-1120988",
+   "bank": "123000220-7004412",
+   "terms": 30,
+   "currency": "USD",
+   "gl": "5000",
+   "requires_po": false,
+   "tax_bps": 0,
+   "status": "blocked",
+   "block_reason": "Failed food-safety audit, purchasing hold since September",
+   "addr": [
+    "9 Grist Road",
+    "Salem, OR 97301"
+   ]
+  },
+  "V-13": {
+   "name": "Willamette Kitchen Repair",
+   "aliases": [
+    "Willamette Kitchen"
+   ],
+   "tax_id": "93-5581204",
+   "bank": "123000220-3318760",
+   "terms": 15,
+   "currency": "USD",
+   "gl": "6800",
+   "requires_po": false,
+   "tax_bps": 850,
+   "addr": [
+    "640 NW Everett St",
+    "Portland, OR 97209"
+   ],
+   "status": "active"
+  }
+ },
+ "gl": {
+  "1500": "Equipment",
+  "5000": "Cost of goods: ingredients",
+  "5100": "Cost of goods: packaging",
+  "6100": "Freight in",
+  "6200": "Rent",
+  "6300": "Utilities",
+  "6400": "IT services",
+  "6500": "Cleaning",
+  "6600": "Marketing",
+  "6700": "Insurance",
+  "6800": "Repairs and maintenance",
+  "6900": "Office and other"
+ },
+ "pos": {
+  "PO-5101": {
+   "vendor": "V-01",
+   "status": "open",
+   "lines": [
+    {
+     "sku": "GRN-ETH",
+     "desc": "Green coffee, Ethiopia Yirgacheffe 60kg",
+     "qty": 4,
+     "price": 41250,
+     "received": 4,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "GRN-COL",
+     "desc": "Green coffee, Colombia Huila 60kg",
+     "qty": 3,
+     "price": 37800,
+     "received": 3,
+     "billed": 0,
+     "gl": null
+    }
+   ]
+  },
+  "PO-5102": {
+   "vendor": "V-02",
+   "status": "open",
+   "lines": [
+    {
+     "sku": "BAG-12",
+     "desc": "Kraft bags with valve, 12 oz (case)",
+     "qty": 18,
+     "price": 4620,
+     "received": 18,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "LBL-RD",
+     "desc": "Round labels, 2 in (roll)",
+     "qty": 12,
+     "price": 1875,
+     "received": 12,
+     "billed": 0,
+     "gl": null
+    }
+   ]
+  },
+  "PO-5103": {
+   "vendor": "V-03",
+   "status": "open",
+   "lines": [
+    {
+     "sku": "MLK-WH",
+     "desc": "Whole milk, 5 gal",
+     "qty": 20,
+     "price": 2195,
+     "received": 20,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "MLK-OT",
+     "desc": "Oat base, 5 gal",
+     "qty": 8,
+     "price": 3120,
+     "received": 8,
+     "billed": 0,
+     "gl": null
+    }
+   ]
+  },
+  "PO-5104": {
+   "vendor": "V-03",
+   "status": "open",
+   "lines": [
+    {
+     "sku": "MLK-WH",
+     "desc": "Whole milk, 5 gal",
+     "qty": 24,
+     "price": 2195,
+     "received": 24,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "CRM-HV",
+     "desc": "Heavy cream, 2.5 gal",
+     "qty": 10,
+     "price": 3460,
+     "received": 10,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "BTR-UN",
+     "desc": "Unsalted butter, 36 lb",
+     "qty": 4,
+     "price": 12480,
+     "received": 4,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "MLK-OT",
+     "desc": "Oat base, 5 gal",
+     "qty": 12,
+     "price": 3120,
+     "received": 12,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "MLK-AL",
+     "desc": "Almond base, 5 gal",
+     "qty": 6,
+     "price": 3390,
+     "received": 6,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "YGT-PL",
+     "desc": "Plain yogurt, 2 gal",
+     "qty": 8,
+     "price": 2240,
+     "received": 8,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "CHS-CH",
+     "desc": "Sharp cheddar, 10 lb",
+     "qty": 5,
+     "price": 5150,
+     "received": 5,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "CHS-MZ",
+     "desc": "Mozzarella, 10 lb",
+     "qty": 5,
+     "price": 4720,
+     "received": 5,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "EGG-LQ",
+     "desc": "Liquid egg, 2 lb (case)",
+     "qty": 6,
+     "price": 3875,
+     "received": 6,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "CRM-SR",
+     "desc": "Sour cream, 5 lb",
+     "qty": 6,
+     "price": 1640,
+     "received": 6,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "MLK-2P",
+     "desc": "2% milk, 5 gal",
+     "qty": 10,
+     "price": 2085,
+     "received": 10,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "CRM-HH",
+     "desc": "Half and half, 2.5 gal",
+     "qty": 8,
+     "price": 2460,
+     "received": 8,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "BTR-SL",
+     "desc": "Salted butter, 36 lb",
+     "qty": 2,
+     "price": 12150,
+     "received": 2,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "CHS-PR",
+     "desc": "Parmesan, 5 lb",
+     "qty": 4,
+     "price": 4290,
+     "received": 4,
+     "billed": 0,
+     "gl": null
+    }
+   ]
+  },
+  "PO-5105": {
+   "vendor": "V-08",
+   "status": "open",
+   "lines": [
+    {
+     "sku": "RST-AFT",
+     "desc": "Afterburner unit, 15 kg roaster",
+     "qty": 1,
+     "price": 684000,
+     "received": 1,
+     "billed": 0,
+     "gl": null
+    },
+    {
+     "sku": "RST-SVC",
+     "desc": "Commissioning and calibration",
+     "qty": 1,
+     "price": 92000,
+     "received": 1,
+     "billed": 0,
+     "gl": null
+    }
+   ]
+  },
+  "PO-5106": {
+   "vendor": "V-01",
+   "status": "open",
+   "lines": [
+    {
+     "sku": "GRN-GUA",
+     "desc": "Green coffee, Guatemala Huehue 60kg",
+     "qty": 5,
+     "price": 39600,
+     "received": 5,
+     "billed": 0,
+     "gl": null
+    }
+   ]
+  },
+  "PO-5107": {
+   "vendor": "V-02",
+   "status": "open",
+   "lines": [
+    {
+     "sku": "CUP-16",
+     "desc": "Compostable cups, 16 oz (case)",
+     "qty": 20,
+     "price": 7240,
+     "received": 20,
+     "billed": 0,
+     "gl": null
+    }
+   ]
+  },
+  "PO-5108": {
+   "vendor": "V-02",
+   "status": "open",
+   "lines": [
+    {
+     "sku": "LID-16",
+     "desc": "Compostable lids, 16 oz (case)",
+     "qty": 20,
+     "price": 3980,
+     "received": 14,
+     "billed": 0,
+     "gl": null
+    }
+   ]
+  },
+  "PO-5109": {
+   "vendor": "V-03",
+   "status": "closed",
+   "closed_on": "2026-10-30",
+   "lines": [
+    {
+     "sku": "MLK-WH",
+     "desc": "Whole milk, 5 gal",
+     "qty": 16,
+     "price": 2195,
+     "received": 16,
+     "billed": 16,
+     "gl": null
+    }
+   ]
+  },
+  "PO-5110": {
+   "vendor": "V-01",
+   "status": "open",
+   "lines": [
+    {
+     "sku": "GRN-BRZ",
+     "desc": "Green coffee, Brazil Cerrado 60kg",
+     "qty": 3,
+     "price": 33150,
+     "received": 3,
+     "billed": 0,
+     "gl": null
+    }
+   ]
+  }
+ },
+ "users": {
+  "maya": {
+   "name": "Maya Lindgren",
+   "role": "AP clerk",
+   "limit_cents": 0,
+   "can_override": []
+  },
+  "tom": {
+   "name": "Tom Okafor",
+   "role": "AP manager",
+   "limit_cents": 1000000,
+   "can_override": [
+    "math",
+    "tax_rate",
+    "po_price",
+    "po_qty",
+    "date_terms",
+    "date_stale",
+    "dup_soft",
+    "low_confidence",
+    "not_on_page",
+    "date_order",
+    "currency",
+    "injection"
+   ]
+  },
+  "dana": {
+   "name": "Dana Reyes",
+   "role": "Controller",
+   "limit_cents": 10000000,
+   "can_override": [
+    "math",
+    "tax_rate",
+    "po_price",
+    "po_qty",
+    "date_terms",
+    "date_stale",
+    "dup_soft",
+    "low_confidence",
+    "not_on_page",
+    "date_order",
+    "currency",
+    "injection",
+    "bank_changed",
+    "period_closed",
+    "vendor_lookalike",
+    "po_missing",
+    "date_future"
+   ]
+  }
+ },
+ "policy": {
+  "today": "2026-11-20",
+  "closed_through": "2026-10-31",
+  "auto_post_limit_cents": 250000,
+  "price_tolerance_bps": 200,
+  "confidence_floor": 0.85,
+  "ocr_floor": 0.7,
+  "stale_days": 120,
+  "math_tolerance_cents": 1,
+  "fuzzy_vendor": 0.82,
+  "fx_to_usd": {
+   "USD": 1.0,
+   "EUR": 1.0842
+  },
+  "base_currency": "USD",
+  "ledger": "QuickBooks Online"
+ }
+}

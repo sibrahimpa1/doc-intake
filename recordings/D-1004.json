@@ -1,0 +1,88 @@
+{
+ "id": "D-1004",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Clearview Janitorial",
+   "evidence": "Clearview Janitorial",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "93-4471120",
+   "evidence": "93-4471120",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "CJ-3391",
+   "evidence": "CJ-3391",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-05",
+   "evidence": "11/05/2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-11-20",
+   "evidence": "11/20/2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 124500,
+   "evidence": "$1,245.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 124500,
+   "evidence": "$1,245.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "123006800-6612087",
+   "evidence": "123006800-6612087",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Cafe and roastery cleaning, November",
+   "qty": 1,
+   "unit_price": 98000,
+   "amount": 98000,
+   "evidence": "980.00",
+   "confidence": 0.97
+  },
+  {
+   "sku": "S2",
+   "description": "Floor stripping and wax",
+   "qty": 1,
+   "unit_price": 26500,
+   "amount": 26500,
+   "evidence": "265.00",
+   "confidence": 0.97
+  }
+ ]
+}

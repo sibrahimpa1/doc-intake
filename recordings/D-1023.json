@@ -1,0 +1,88 @@
+{
+ "id": "D-1023",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "Ironclad Insurance Brokers",
+   "evidence": "Ironclad Insurance Brokers",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "36-9920417",
+   "evidence": "36-9920417",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "IC-5583",
+   "evidence": "IC-5583",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-13",
+   "evidence": "11/13/2026",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-12-13",
+   "evidence": "12/13/2026",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 248500,
+   "evidence": "$2,485.00",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 248500,
+   "evidence": "$2,485.00",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "071000013-8820154",
+   "evidence": "071000013-8820154",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "General liability, monthly",
+   "qty": 1,
+   "unit_price": 142000,
+   "amount": 142000,
+   "evidence": "1,420.00",
+   "confidence": 0.97
+  },
+  {
+   "sku": "S2",
+   "description": "Property cover, monthly",
+   "qty": 1,
+   "unit_price": 96500,
+   "amount": 96500,
+   "evidence": "965.00",
+   "confidence": 0.97
+  }
+ ]
+}

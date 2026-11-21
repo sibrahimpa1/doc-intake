@@ -1,0 +1,88 @@
+{
+ "id": "D-1005",
+ "model": "replay: recorded extraction",
+ "doc_type": "invoice",
+ "fields": {
+  "vendor_name": {
+   "value": "BrightLine Electric",
+   "evidence": "BrightLine Electric",
+   "confidence": 0.98
+  },
+  "tax_id": {
+   "value": "93-0204417",
+   "evidence": "93-0204417",
+   "confidence": 0.98
+  },
+  "invoice_number": {
+   "value": "BL-90017734",
+   "evidence": "BL-90017734",
+   "confidence": 0.98
+  },
+  "invoice_date": {
+   "value": "2026-11-05",
+   "evidence": "2026-11-05",
+   "confidence": 0.98
+  },
+  "due_date": {
+   "value": "2026-11-25",
+   "evidence": "2026-11-25",
+   "confidence": 0.98
+  },
+  "po_number": {
+   "value": null,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "currency": {
+   "value": "USD",
+   "evidence": null,
+   "confidence": 0.95,
+   "implied": true
+  },
+  "subtotal": {
+   "value": 176266,
+   "evidence": "1,762.66",
+   "confidence": 0.98
+  },
+  "tax": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "shipping": {
+   "value": 0,
+   "evidence": null,
+   "confidence": 0.99
+  },
+  "total": {
+   "value": 176266,
+   "evidence": "1,762.66",
+   "confidence": 0.98
+  },
+  "bank_account": {
+   "value": "123000220-1140098",
+   "evidence": "123000220-1140098",
+   "confidence": 0.98
+  }
+ },
+ "lines": [
+  {
+   "sku": "S1",
+   "description": "Electric service, Oct 1 to Oct 31, 18,240 kWh",
+   "qty": 1,
+   "unit_price": 172416,
+   "amount": 172416,
+   "evidence": "1,724.16",
+   "confidence": 0.97
+  },
+  {
+   "sku": "S2",
+   "description": "Basic charge",
+   "qty": 1,
+   "unit_price": 3850,
+   "amount": 3850,
+   "evidence": "38.50",
+   "confidence": 0.97
+  }
+ ]
+}
