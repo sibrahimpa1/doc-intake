@@ -12,6 +12,8 @@ from . import checks
 
 
 def gl_for(line, vendor, po) -> str:
+    if line.get("gl"):
+        return line["gl"]
     if po:
         for x in po["lines"]:
             if x["sku"] == line.get("sku") and x.get("gl"):

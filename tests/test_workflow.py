@@ -139,3 +139,16 @@ def test_real_pdf_text_layer():
     d = pdf_document(Path(__file__).parent.parent / "samples" / "D-1001.pdf")
     words = {t["t"] for t in d["pages"][0]["tokens"]}
     assert "BH-20418" in words and "PO-5110" in words
+
+
+def test_line_correction_rechecks_and_needs_a_second_person():
+    q = run_queue()
+    i = find(q, "Price above the PO")
+    q.correct_line(i.id, "maya", 0, unit_price="396.00", amount="1,980.00")
+    q.correct(i.id, "maya", "subtotal", "1,980.00")
+    q.correct(i.id, "maya", "total", "1,980.00")
+    assert i.status == "needs_approval"
+    with pytest.raises(Denied):
+        q.correct_line(i.id, "maya", 0, gl="9999")
+    q.correct_line(i.id, "maya", 0, gl="5100")
+    assert qbo_bill(i, q.master)["Line"][0]["AccountBasedExpenseLineDetail"]["AccountRef"]["value"] == "5100"

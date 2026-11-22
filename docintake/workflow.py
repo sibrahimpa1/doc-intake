@@ -125,6 +125,28 @@ class Queue:
         self._evaluate(item)
         return item
 
+    def correct_line(self, doc_id, who, index, **changes) -> Item:
+        """Change a line's quantity, unit price, amount or GL account."""
+        self._user(who)
+        item = self._get(doc_id, "exception", "needs_approval")
+        if not 0 <= index < len(item.ex["lines"]):
+            raise Denied("No such line.")
+        line = item.ex["lines"][index]
+        for k, v in changes.items():
+            if k not in ("qty", "unit_price", "amount", "gl"):
+                raise Denied(f"Line field {k} can't be edited.")
+            if k == "gl" and v not in self.master["gl"]:
+                raise Denied("That GL account doesn't exist.")
+            if k in ("unit_price", "amount") and not isinstance(v, int):
+                v = money(v)
+                if v is None:
+                    raise Denied("That isn't an amount.")
+            item.record(who, "corrected", f"line {index + 1} {k}: {line.get(k)} → {v}")
+            line[k] = v
+        item.editors.add(who)
+        self._evaluate(item)
+        return item
+
     def override(self, doc_id, who, check_id, reason, callback_ref=None) -> Item:
         user = self._user(who)
         item = self._get(doc_id, "exception")
