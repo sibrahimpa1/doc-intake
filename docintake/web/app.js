@@ -332,6 +332,19 @@ document.addEventListener("click", e => {
   else if (b.dataset.kind) { payloadKind = b.dataset.kind; render(); }
   else if ("reset" in b.dataset) { Object.assign(M.policy, DEFAULT_POLICY); S = { user: "maya", coach: true, items: {}, policy: null, outage: false }; try { localStorage.removeItem(KEY); } catch (x) { } fresh(); filter = "all"; location.hash = "queue"; render(); toast("Demo reset."); }
 });
+function markField(k) {
+  $$(".livemark").forEach(x => x.remove());
+  const id = curId(); if (!id || !k) return;
+  const doc = docOf(id), f = S.items[id].ex.fields[k], h = f && locate(doc, f.evidence); if (!h) return;
+  const svg = $$(".page svg")[h.p], b = box(doc.pages[h.p], h), r = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  for (const [a, v] of Object.entries({ x: b.x, y: b.y, width: b.w, height: b.h, rx: 1.5, fill: "rgba(245,200,66,.55)", stroke: "#b98900", "stroke-width": .8, class: "livemark", "pointer-events": "none" })) r.setAttribute(a, v);
+  svg.append(r);
+  const page = svg.closest(".page"), st = $(".stage"), y = page.offsetTop - st.offsetTop + b.y / doc.pages[h.p].h * page.offsetHeight;
+  if (y < st.scrollTop + 30 || y > st.scrollTop + st.clientHeight - 40) st.scrollTo({ top: Math.max(0, y - st.clientHeight / 2), behavior: "smooth" });
+}
+document.addEventListener("mouseover", e => { const row = e.target.closest && e.target.closest("[data-row]"); if (row) markField(row.dataset.row); });
+document.addEventListener("mouseout", e => { const row = e.target.closest && e.target.closest("[data-row]"); if (row && !row.contains(e.relatedTarget)) markField(active); });
+document.addEventListener("focusin", e => { if (e.target.dataset && e.target.dataset.f) markField(e.target.dataset.f); });
 document.addEventListener("focusin", e => { const k = e.target.dataset && e.target.dataset.f; if (k && !e.target.readOnly) { active = k; capture = k; $$(".f.active").forEach(x => x.classList.remove("active")); e.target.closest(".f").classList.add("active"); const st = $(".stage"); if (st) st.classList.add("capture"); } });
 document.addEventListener("change", e => {
   const t = e.target, id = curId();
